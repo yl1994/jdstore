@@ -35,6 +35,9 @@ gem 'devise', '~> 4.0.0.rc1'
 gem 'responders', '~> 2.4', '>= 2.4.1'
 gem 'simple_form'
 gem 'font-awesome-rails'
+gem 'carrierwave'
+gem 'mini_magick'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
