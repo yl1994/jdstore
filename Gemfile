@@ -39,6 +39,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'letter_opener', group: :development
 gem 'launchy', '2.4.3'
+gem 'aasm'
 
 
 group :development, :test do
