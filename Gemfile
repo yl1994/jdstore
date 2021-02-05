@@ -31,6 +31,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'bootstrap-sass','3.3.6'
 gem 'autoprefixer-rails','9.8.4'
+gem 'devise', '~> 4.0.0.rc1'
+gem 'responders', '~> 2.4', '>= 2.4.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
