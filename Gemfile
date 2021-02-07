@@ -29,20 +29,31 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# 样式bootstrap
 gem 'bootstrap-sass','3.3.6'
 gem 'autoprefixer-rails','9.8.4'
+# 登录
 gem 'devise', '~> 4.0.0.rc1'
 gem 'responders', '~> 2.4', '>= 2.4.1'
+
+# simple_form 简化表单
 gem 'simple_form'
+# 图标icon
 gem 'font-awesome-rails'
+
+# 上传插件
 gem 'carrierwave'
 gem 'mini_magick'
-gem 'letter_opener', group: :development
-gem 'launchy', '2.4.3'
-gem 'aasm'
 gem 'carrierwave-qiniu'
 gem 'qiniu-rs'
 
+# 本地预览邮件
+gem 'letter_opener', group: :development
+gem 'launchy', '2.4.3'
+# 状态机
+gem 'aasm'
+# 机密信息管理
+gem 'figaro'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
