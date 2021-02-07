@@ -40,6 +40,8 @@ gem 'mini_magick'
 gem 'letter_opener', group: :development
 gem 'launchy', '2.4.3'
 gem 'aasm'
+gem 'carrierwave-qiniu'
+gem 'qiniu-rs'
 
 
 group :development, :test do
